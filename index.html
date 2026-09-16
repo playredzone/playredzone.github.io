@@ -281,6 +281,50 @@ p {
   opacity: 0.5;
   font-style: italic;
 }
+
+
+/* Mobile view */
+@media only screen and (max-width: 600px) {
+  /* Hide arrows */
+  .arrow {
+    display: none;
+  }
+
+  body {
+    background-color: #000;
+  }
+
+  /* First image */
+  h1 {
+    font-size: xx-large;
+  }
+  .tagline {
+    max-width: 90vw;
+  }
+
+  /* Second image */
+  
+  .card {
+    width: 350px;
+    height: 150px;
+  }
+
+  .card-inner {
+    width: 100%;
+  }
+
+  section {
+    margin: 50px 0;
+  }
+
+  #hero {
+    margin-top: 0;
+  }
+
+  #thrive {
+    margin-bottom: 0;
+  }
+}
 </style>
 </head>
 
